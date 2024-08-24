@@ -1,6 +1,7 @@
 import React from "react";
 import './Main.css'
 import home from '../../assets/home.jpeg'
+import rating from '../../assets/rating.png'
 
 function Main(){
     return(
@@ -12,21 +13,22 @@ function Main(){
             </div>
             <div className="main-right">
                  <img src=''alt="home" />
-                <div className="main-right-rating">
+            </div>
+            <div className="main-right-rating">
                     <p>Customer Rating</p>
-                    <h5>4.9</h5>
-                    <img src="" alt="star" />
+                    <div className="rating-right">
+                    <h2>4.9</h2>
+                    <img src={rating} alt="star" />
+                    </div>  
                 </div>
-                <div className="main-right-view">
-                    <h3>Buy Your Dream Home</h3>
+            <div className="main-right-view">
+                    <h3 className="title">Buy Your Dream Home</h3>
                     <h2>80+</h2>
                     <h3>Home Available</h3>
                     <button className="main-right-button">
                         View Details
                     </button>
                 </div>
-
-            </div>
         </div>
     )
 }

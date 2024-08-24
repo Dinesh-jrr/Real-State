@@ -31,13 +31,39 @@
     border-radius: 10px;
 
 }
+
+/* main-rating */
 .main-right-rating{
-    display:flex;
-    justify-content: center;
-    border:2px solid pink;
-    height:50px;
-    width:153px;
+border:2px solid yellow;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:20px;
+width:240px;
+height:48px;
 }
+.main-right-rating p{
+    color:gray;
+    font-size: 20px;
+}
+.rating-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rating-right img{
+    height:40px;
+    width:40px;
+}
+
+/* main-view */
 .main-right-view{
-    
+    display:flex;
+    flex-direction: column;
+    border:2px solid black;
+    height:222px;
+    width:250px;
+}
+.main-right-view title{
+    color:gray;
 }
