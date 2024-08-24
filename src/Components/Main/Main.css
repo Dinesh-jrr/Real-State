@@ -36,7 +36,6 @@
 .main-right{
     position:relative;
     
-    
 }
 
 /* main-rating */
@@ -53,6 +52,7 @@ width:240px;
 height:48px;
 background-color: white;
 border-radius: 4px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .home-img{
     height:500px;
@@ -86,6 +86,7 @@ border-radius: 4px;
     align-items: center;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .view-title{
     color:gray;
@@ -129,6 +130,7 @@ border-radius: 4px;
     width:800px;
     background-color: white;
     border-radius:10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .location img,.rent img,.bedroom img{
     height:20px;
