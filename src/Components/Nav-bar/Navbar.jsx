@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import search from '../../assets/search.png'
 
 function Navbar(){
     return(
@@ -18,7 +19,7 @@ function Navbar(){
                 </ul>
             </div>
             <div className="navbar-search">
-                <img src="" alt="search-button" />
+                <img src={search} alt="search-button" />
             </div>
             <div className="navbar-started">
                 <button>Get Started</button>

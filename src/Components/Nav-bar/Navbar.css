@@ -41,3 +41,16 @@ bod{
     color:white;
     border:none;
 }
+.navbar-search{
+    height:70px;
+    width:70px;
+    background-color: white;
+    border-radius:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-search img{
+    height:50px;
+    width:50px;
+}
