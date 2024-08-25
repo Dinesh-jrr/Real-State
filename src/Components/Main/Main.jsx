@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css";
-import home from "../../assets/home.jpeg";
+import home from "../../assets/home.png";
 import rating from "../../assets/rating.png";
 import dropdown from '../../assets/dropdown.png'
 import search from  '../../assets/search.png'
