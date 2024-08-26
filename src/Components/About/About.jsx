@@ -2,7 +2,9 @@ import React from 'react'
 import './About.css'
 import trophy from '../../assets/trophy.jpeg'
 import about from '../../assets/about.png'
-
+import Content from '../About/Content'
+import villa from '../../assets/villa-icon.jpeg'
+import arrow from '../../assets/arrow.png'
 function About(){
     return(
         <div className='about'>
@@ -24,19 +26,11 @@ function About(){
                 <p className='top-content2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sunt impedit recusandae corporis nesciunt saepe doloribus odit reprehenderit repellendus tempora? Ea maxime obcaecati illum sapiente aut amet dolor dolores. Officia?</p>
                 </div>
                 <div className="right-lower">
-                    <div className="right-lower-content">
-                        <img src="" alt="" />
-                        <h5>Modern Villa</h5>
-                        <p>When unknown printer took gallery of type and scraambled.</p>
-                    </div>
-                    <div className="right-lower-content">
-                        <img src="" alt="" />
-                        <h5>Modern Villa</h5>
-                        <p>When unknown printer took gallery of type and scraambled.</p>
-                    </div>
+                    <Content img={villa}></Content>
+                    <Content img={villa}></Content>
                 </div>
                 <div className='learn'>
-                    <img src="" alt="" />
+                    <img src={arrow} alt="" />
                     <p>Learn More</p>
                 </div>
 
