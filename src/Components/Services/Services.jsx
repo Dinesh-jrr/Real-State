@@ -9,10 +9,19 @@ function Services() {
       <div className="services-top">
         <h3 className="services-title">Our Services</h3>
         <h1>Our Main Focus</h1>
-            <Container></Container>
-            <Container></Container>
+        <div className="top-content">
+          <Container></Container>
+          <Container></Container>
+          <Container></Container>
+        </div>
       </div>
-      <div className="services-lower"></div>
+      <div className="services-lower">
+        <div className="lower-box">
+            <img src="" alt="" />
+            <h3>260+</h3>
+            <p>Total Construction</p>
+          </div>
+      </div>
     </div>
   );
 }

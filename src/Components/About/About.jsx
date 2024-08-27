@@ -21,9 +21,9 @@ function About(){
 
             <div className="about-right">
                 <div className="right-top">
-                <h2 className="title">ABOUT US</h2>
-                <p className='top-content'>We're On A Mission To Change View Of RealEstate Field.</p>
-                <p className='top-content2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sunt impedit recusandae corporis nesciunt saepe doloribus odit reprehenderit repellendus tempora? Ea maxime obcaecati illum sapiente aut amet dolor dolores. Officia?</p>
+                    <h2 className="title">ABOUT US</h2>
+                    <h5>We're On A Mission To Change View Of RealEstate Field.</h5>
+                    <p className='top-content2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sunt impedit recusandae corporis nesciunt saepe doloribus odit reprehenderit repellendus tempora? Ea maxime obcaecati illum sapiente aut amet dolor dolores. Officia?</p>
                 </div>
                 <div className="right-lower">
                     <Content img={villa}></Content>

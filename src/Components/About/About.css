@@ -62,6 +62,8 @@
     align-items: center;
     justify-content: center;
     margin:0px;
+    width:50%;
+
 }
 .right-top{
     display: flex;
@@ -70,13 +72,16 @@
 .title{
     color:rgb(0, 97, 224);
 }
-.top-content{
+.right-top h5{
     font-size: 46px;
-    font-weight: 700;
+    font-weight: 600;
     width:653px;
-    line-height: 50px;;
     margin-top:0px;
     margin-bottom:30px;
+    min-height:100px;
+    white-space: normal;
+
+  
 }
 .top-content2{
     color:gray;

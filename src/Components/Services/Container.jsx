@@ -1,7 +1,7 @@
 import React from "react";
 import './Services.css'
-import payment from "../../assets/payment.jpeg";
-import arrow from "../../assets/arrow.png";
+import payment from '../../assets/payment.jpeg'
+import arrow from '../../assets/arrow.png'
 
 function Container(){
     return(
