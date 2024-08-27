@@ -6,7 +6,6 @@
     gap:80px;
     height:800px;
     width:100%;
-    border:2px solid yellow;
     margin-top:50px;
     padding:0px;
 }
@@ -30,8 +29,8 @@
     border:none;
     border-radius: 5px;
     position:absolute;
-    top:520px;
-    right:350px;
+    top:500px;
+    right:300px;
     background-color: white;
     
 }

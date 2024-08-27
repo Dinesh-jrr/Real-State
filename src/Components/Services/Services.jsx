@@ -18,6 +18,9 @@ function Services() {
       </div>
       <div className="services-lower">
         <Box></Box>
+        <Box></Box>
+        <Box></Box>
+        <Box></Box>
       </div>
     </div>
   );
