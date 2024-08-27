@@ -1,6 +1,7 @@
 import React from "react";
 import "./Services.css";
 import Container from '../../Components/Services/Container'
+import Box from '../../Components/Services/Box'
 
 
 function Services() {
@@ -16,11 +17,7 @@ function Services() {
         </div>
       </div>
       <div className="services-lower">
-        <div className="lower-box">
-            <img src="" alt="" />
-            <h3>260+</h3>
-            <p>Total Construction</p>
-          </div>
+        <Box></Box>
       </div>
     </div>
   );

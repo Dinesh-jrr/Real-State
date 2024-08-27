@@ -1,13 +1,14 @@
 import React from "react";
 import'./Services.css'
+import construction from '../../assets/construction.png'
 
 function Box(){
     return(
         <div className="lower-box">
-            <img src="" alt="" />
+            <img src={construction} alt="" />
             <h3>260+</h3>
             <p>Total Construction</p>
-        </div>
+          </div>
     )
 }
 export default Box
