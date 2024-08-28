@@ -1,0 +1,87 @@
+.agents{
+    height:700px;
+    width:100%;
+    border:2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap:20px;
+}
+.agents-top{
+    height:900px;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.agents-top h4{
+    color:rgb(0, 97, 224);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.agents-top h3{
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+.agents-box{
+    height:260px;
+    width:170px;
+    padding:40px;
+    position:relative;
+    box-shadow: 4px 6px rgb(0,0,0,0.1);
+}
+.agents-box img{
+    height:180px;
+    width:170px;
+    margin-bottom: 0px;
+}
+.info{
+    color:rgb(0, 97, 224);
+    font-size: 14px;
+    font-weight: 500;
+    background-color:rgb(216, 218, 221);
+    width:120px;
+    padding:3px;
+    margin-bottom: 0px;
+    position:absolute;
+    top:175px;
+    left:40px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.details{
+    color:gray;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.agents-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+
+}
+.agents-contact img{
+    height:16px;
+    width:16px;
+}
+.agents-lower{
+    height:300px;
+    width:90%;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
