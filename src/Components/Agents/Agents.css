@@ -77,11 +77,22 @@
     height:16px;
     width:16px;
 }
+
+
+/* lower section  */
 .agents-lower{
     height:300px;
     width:90%;
     border:2px solid black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    padding:10px;
+}
+.lower-content{
+    
+}
+.agents-lower img{
+    height:42px;
+    width:42px;
 }
