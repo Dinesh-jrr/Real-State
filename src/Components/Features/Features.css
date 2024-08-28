@@ -1,0 +1,126 @@
+.features{
+    height:1000px;
+    width:100%;
+    border:2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features-title{
+    font-size: 18px;
+    color:rgb(0, 97, 224);
+    margin-bottom:0px;
+}
+.features-info{
+    font-size: 38px;
+    margin-top:10px;
+    width:400px;
+    text-align: center;
+}
+.features-content{
+    height:800px;
+    width:90%;
+    border:2px solid black;
+}
+.features-container{
+    height:547px;
+    width:370px;
+    border:2px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-img{
+    width:100%;
+    height:auto;
+    position:relative;
+}
+.features-container p{
+    color:white;
+    background-color: rgb(13, 38, 59);
+    padding:7px;
+    position:absolute;
+    top:10px;
+    left:15px;
+}
+.features-container h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:0px;
+}
+.container-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    margin-top:10px;
+    margin-bottom: 0px;
+    height:22px;
+}
+.container-location img{
+    height:14px;
+    width:12px;
+}
+.container-location h5{
+    font-size: 12px;
+    color:gray;
+    font-weight: 500;
+}
+
+.container-info{
+    height:24px;
+    width:130px;
+    border:2px solid blue;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 0px;
+}
+.container-info img{
+    height:16px;
+    width:16px;
+}
+.container-info h4{
+    font-size: 12px;
+    color:gray;
+}
+
+.container-lower{
+    height:100px;
+    width:100%;
+    border:2px solid green;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.lower-name{
+    height:50px;
+    width:50%;
+    border:2px solid yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+.lower-time{
+    height:50px;
+    width:50%;
+    border:2px solid yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+.lower-name img,.lower-time img{
+    height:16px;
+    width:16px;
+}
+
+.container-button{
+    height:55px;
+    width:100%;
+    background-color: rgb(0, 97, 224);
+    color:white;
+    font-size: 18px;
+    border:none; 
+}
