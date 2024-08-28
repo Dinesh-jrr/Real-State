@@ -53,7 +53,7 @@ width:240px;
 height:48px;
 background-color: white;
 border-radius: 4px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+box-shadow: 4px 0 6px rgba(0,0,0,0.1), -4px 0 6px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1), 0 -4px 6px rgba(0,0,0,0.1);
 }
 .home-img{
     height:507px;
@@ -87,7 +87,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     align-items: center;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 0 6px rgba(0,0,0,0.1), -4px 0 6px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.1), 0 -4px 6px rgba(0,0,0,0.1);
 }
 .view-title{
     color:gray;

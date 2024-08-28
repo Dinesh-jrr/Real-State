@@ -1,7 +1,7 @@
 import React from "react";
 import "./Agents.css";
 import Box from "../../Components/Agents/Box";
-import agents from '../../assets/agents.png'
+import agents from "../../assets/agents.png";
 
 function Agents() {
   return (
