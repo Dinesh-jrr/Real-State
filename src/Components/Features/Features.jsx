@@ -2,9 +2,9 @@ import React from "react";
 import "./Features.css";
 import room from "../../assets/room.png";
 import location from '../../assets/location.png'
-import area from '../../assets/area.png'
 import clock from '../../assets/clock.png'
 import user from '../../assets/user.png'
+import Info from '../../Components/Features/Info'
 function Features() {
   return (
     <div className="features">
@@ -22,10 +22,12 @@ function Features() {
             <h5>Hills,CA 90210</h5>
           </div>
             <hr />
-            <div className="container-info">
-              <img src={area} alt="" />
-              <h4>2400 Square Feet</h4>
-            </div>
+            <div className="container-middle">
+                <Info></Info>
+                <Info></Info>
+                <Info></Info>
+                <Info></Info>
+        </div>
           <div className="container-lower">
             <div className="lower-name">
               <img src={user} alt="" />
