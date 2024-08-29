@@ -1,20 +1,27 @@
 import React from "react";
 import './Customers.css'
+import Container from '../../Components/Customers/Container'
+import agents from "../../assets/agents.png";
+import circle from '../../assets/circle.png'
 
 function Customers(){
     return(
         <div className="customers">
             <h4>Our Testimonials</h4>
             <h3>What Our Customers Says</h3>
-            <div className="customers-container">
-                <p>I could probably go into sales for you.I am completely blown away.After using SEO my business skyrocketed! The very best.</p>
-                <div className="container-lower">
-                    <img src="" alt="" />
-                    <h4>Grace Hall</h4>
-                    <p>Customer</p>
-                </div>
+            <div className="customers-middle">
+            <Container></Container>
+            <Container></Container>
+            <Container></Container>
             </div>
-            <img src="" alt="" />
+            <div className="customers-lower">
+                <img src={circle} alt="" />
+                <img src={circle} alt="" />
+                <img src={circle} alt="" />
+                <img src={circle} alt="" />
+                <img src={circle} alt="" />
+            </div>
+           
         </div>
     )
 }
