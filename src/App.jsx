@@ -7,6 +7,7 @@ import Services from './Components/Services/Services'
 import Agents from './Components/Agents/Agents'
 import Features from './Components/Features/Features'
 import Customers from './Components/Customers/Customers'
+import Properties from './Components/Properties/Properties'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Agents></Agents>
       <Features></Features>
       <Customers></Customers>
+      <Properties></Properties>
     </>
   )
 }
