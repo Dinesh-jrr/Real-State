@@ -7,3 +7,19 @@
     flex-direction: column;
     align-items: center;
 }
+.properties-title{
+    color:rgb(0, 97, 224);
+    font-size: 18px;
+    font-weight:600;
+    margin-bottom: 0px;
+}
+.properties-headline{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.properties-container{
+    height:500px;
+    width:350px;
+    border:2px solid yellow;
+}

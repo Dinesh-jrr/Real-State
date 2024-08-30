@@ -4,8 +4,8 @@ import './Properties.css'
 function Properties(){
     return(
         <div className="properties">
-            <h5>PORPERTIES</h5>
-            <h3>Our Popular Properties</h3>
+            <h5 className="properties-title">PROPERTIES</h5>
+            <h3 className="properties-headline">Our Popular Properties</h3>
             <div className="properties-container">
                 <img src="" alt="" />
                 <p>SINGAPORE</p>
