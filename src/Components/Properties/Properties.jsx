@@ -1,5 +1,6 @@
 import React from "react";
 import './Properties.css'
+import property from '../../assets/property.png'
 
 function Properties(){
     return(
@@ -7,8 +8,8 @@ function Properties(){
             <h5 className="properties-title">PROPERTIES</h5>
             <h3 className="properties-headline">Our Popular Properties</h3>
             <div className="properties-container">
-                <img src="" alt="" />
-                <p>SINGAPORE</p>
+                <img className="properties-img" src={property} alt="" />
+                <p className="container-name">SINGAPORE</p>
                 <h4>$300,000</h4>
                 <p>5232 North Carolina Ave 21BC</p>
                 <h4>California,USA</h4>
