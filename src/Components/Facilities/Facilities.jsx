@@ -1,12 +1,14 @@
 import React from "react";
 import './Facilities.css'
+import home from '../../assets/home.png'
+import video from '../../assets/video.png'
 
 function Facilities(){
     return(
         <div className="facilities">
             <div className="facilities-left">
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <img className="facilities-left-img1" src={home} alt="" />
+                <img className="facilities-left-img2" src={video} alt="" />
             </div>
             <div className="facilities-right">
                 <h4>OUR FACILITIES</h4>

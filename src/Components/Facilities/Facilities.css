@@ -1,0 +1,46 @@
+.facilities{
+    height:800px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:2px solid green;
+    justify-content: center;  
+}
+.facilities-left{
+    width:575px;
+    height:502px;
+    border:2px solid pink;
+    position:relative;
+    overflow: hidden;
+}
+.facilities-left-img1{
+    height:502px;
+    width:575px;
+    position: relative;
+    object-fit: cover;
+}
+.facilities-left-img2{
+    height:60px;
+    width:60px;
+    position:absolute;
+    top:250px;
+    left:250px;
+    object-fit: cover;
+}
+.facilities-left::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 255, 0.2); /* Blue color with 50% opacity */
+    z-index: 2; /* Ensure the overlay is above both images */
+    pointer-events: none; /* Allow interactions with elements below the overlay */
+}
+.facilities-right{
+    width:50%;
+    border:2px solid yellow;
+    height:502px;
+}
