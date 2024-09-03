@@ -97,15 +97,16 @@
     color:gray;
 }
 
-.container-lower{
+.features-container-lower{
     height:30px;
     width:100%;
     display: flex;
     flex-direction: row;
-    gap:130px;
+    gap:90px;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
+    border:2px solid black;
 }
 .lower-time, .lower-name{
     height:25px;

@@ -25,7 +25,7 @@ function Box(){
                 <Info></Info>
                 <Info></Info>
         </div>
-          <div className="container-lower">
+          <div className="features-container-lower">
             <div className="lower-name">
               <img src={user} alt="" />
               <h4>Michel Smith</h4>
