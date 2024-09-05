@@ -1,16 +1,15 @@
 .facilities{
-    height:800px;
+    height:600px;
     width:100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border:2px solid green;
     justify-content: center;  
+    margin-bottom:40px;
 }
 .facilities-left{
     width:575px;
     height:502px;
-    border:2px solid pink;
     position:relative;
     overflow: hidden;
 }
@@ -35,17 +34,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 255, 0.2); /* Blue color with 50% opacity */
-    z-index: 2; /* Ensure the overlay is above both images */
-    pointer-events: none; /* Allow interactions with elements below the overlay */
+    background-color: rgba(0, 0, 255, 0.2); 
+    z-index: 2;
+    pointer-events: none; 
 }
 .facilities-right{
     width:50%;
-    border:2px solid yellow;
     height:502px;
     display: flex;
     flex-direction: column;
-    padding-left:20px;
+    padding-left:40px;
 }
 
 .facilities-right-title{
@@ -73,13 +71,37 @@
 .facilities-right-lower{
     height:50px;
     width:150px;
-    border:2px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
 }
 .facilities-right-info{
     height:108px;
     width:369px;
-    border:2px solid black;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap:0px;
     margin-bottom: 20px;
 }
 
-/* left part styling  */
+.info-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    margin:0px;
+}
+.info-heading p{
+    margin:0px;
+}
+.info-heading img{
+    height:16px;
+    width:16px;
+}
+.facilities-right-lower img{
+    height:24px;
+    width:24px;
+}

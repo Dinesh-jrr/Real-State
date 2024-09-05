@@ -2,6 +2,9 @@ import React from "react";
 import './Facilities.css'
 import home from '../../assets/home.png'
 import video from '../../assets/video.png'
+import check from '../../assets/check.png'
+import arrow from '../../assets/arrow.png'
+import Info from '../../Components/Facilities/Info'
 
 function Facilities(){
     return(
@@ -15,14 +18,16 @@ function Facilities(){
                 <h3 className="facilities-right-headline">The Experts In Local And International Property</h3>
                 <p className="facilities-right-desc">Agent has an unknown printer took a gallery of type and scrambled it to make a type specimen book.It has survived not only five centuries but also the leap into electronic.</p>
                 <div className="facilities-right-info">
-                    <div className="info-heading">
-                        <img src="" alt="" />
-                        <p>Parking Space</p>
-                    </div>
-                        <div className="facilities-right-lower">
-                            <img src="" alt="" />
-                            <p>Read More</p>
-                        </div>
+                    <Info></Info>
+                    <Info></Info>
+                    <Info></Info>
+                    <Info></Info>
+                    <Info></Info>
+                    <Info></Info>
+                </div>
+                <div className="facilities-right-lower">
+                    <img src={arrow} alt="" />
+                    <p>Read More</p>
                 </div>
             </div>
         </div>
