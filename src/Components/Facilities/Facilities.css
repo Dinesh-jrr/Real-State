@@ -43,14 +43,43 @@
     width:50%;
     border:2px solid yellow;
     height:502px;
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+}
+
+.facilities-right-title{
+    font-size: 18px;
+    color:rgb(0, 97, 224);
+    margin-bottom: 0px;;
+}
+
+.facilities-right-headline{
+    font-size: 46px;
+    width:533px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.facilities-right-desc{
+    font-size:16px;
+    color:grey;
+    width:464px;
+    height:78px;
+    line-height: 25px;
+    margin-top:0px;
 }
 
 .facilities-right-lower{
-    height:100px;
-    width:100px;
+    height:50px;
+    width:150px;
     border:2px solid red;
-    display: flex;
-    flex-direction: column;
+}
+.facilities-right-info{
+    height:108px;
+    width:369px;
+    border:2px solid black;
+    margin-bottom: 20px;
 }
 
 /* left part styling  */

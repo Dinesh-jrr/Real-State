@@ -11,9 +11,9 @@ function Facilities(){
                 <img className="facilities-left-img2" src={video} alt="" />
             </div>
             <div className="facilities-right">
-                <h4>OUR FACILITIES</h4>
-                <h3>The Experts In Local And International Property</h3>
-                <p>Agent has an unknown printer took a gallery of type and scrambled it to make a type specimen book.It has survived not only five centuries but also the leap into electronic.</p>
+                <h4 className="facilities-right-title">OUR FACILITIES</h4>
+                <h3 className="facilities-right-headline">The Experts In Local And International Property</h3>
+                <p className="facilities-right-desc">Agent has an unknown printer took a gallery of type and scrambled it to make a type specimen book.It has survived not only five centuries but also the leap into electronic.</p>
                 <div className="facilities-right-info">
                     <div className="info-heading">
                         <img src="" alt="" />
