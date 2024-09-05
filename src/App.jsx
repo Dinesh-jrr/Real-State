@@ -9,6 +9,7 @@ import Features from './Components/Features/Features'
 import Customers from './Components/Customers/Customers'
 import Properties from './Components/Properties/Properties'
 import Facilities from './Components/Facilities/Facilities'
+import Feed from './Components/Feed/Feed'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Customers></Customers>
       <Properties></Properties>
       <Facilities></Facilities>
+      <Feed></Feed>
     </>
   )
 }
