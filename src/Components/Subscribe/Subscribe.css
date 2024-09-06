@@ -2,4 +2,50 @@
     height:200px;
     width:100%;
     border:2px solid blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    background-color: rgb(0, 97, 224);
+}
+.subscribe-left h3{
+    font-size: 40px;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+.subscribe-left p{
+    font-size: 18px;
+    color:white;
+    margin-top:10px;
+}
+
+.subscribe-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.subscribe-right input{
+    height:70px;
+    width:458px;
+    color: gray;
+    background-color: white;
+    border:none;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding:0px;
+}
+.subscribe-right button{
+    height:70px;
+    width:149px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(13, 38, 59);
+    border:none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0px;
 }
