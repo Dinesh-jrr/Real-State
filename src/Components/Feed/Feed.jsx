@@ -1,8 +1,7 @@
 import React from "react";
 import './Feed.css'
-import property from '../../assets/property.png'
-import user from '../../assets/user.png'
-import calendar from '../../assets/calendar.png'
+import arrow from '../../assets/arrow.png'
+
 import Box from '../../Components/Feed/Box'
 
 function Feed(){
@@ -14,8 +13,14 @@ function Feed(){
             <Box></Box>
             <Box></Box>
             <Box></Box>
+            <Box></Box>
+            <Box></Box>
+            <Box></Box>
             </div>
-
+            <div className="feed-view">
+                <p>View All</p>
+                <img src={arrow} alt="" />
+            </div>
         </div>
     )
 }
