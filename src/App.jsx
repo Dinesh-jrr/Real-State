@@ -11,6 +11,7 @@ import Properties from './Components/Properties/Properties'
 import Facilities from './Components/Facilities/Facilities'
 import Feed from './Components/Feed/Feed'
 import Subscribe from './Components/Subscribe/Subscribe'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <Facilities></Facilities>
       <Feed></Feed>
       <Subscribe></Subscribe>
+      <Footer></Footer>
     </>
   )
 }
