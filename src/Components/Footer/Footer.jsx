@@ -50,9 +50,13 @@ function Footer(){
                 </div>
 
             </div>
-            <hr />
+            <hr className="footer-hr" />
             <div className="footer-down">
-
+                <p>Copyright Media 2022 All Right Reserved</p>
+                <div className="down-terms">
+                    <p>Terms of Use</p>
+                    <p>Privacy Policy</p>
+                </div>
             </div>
         </div>
     )
